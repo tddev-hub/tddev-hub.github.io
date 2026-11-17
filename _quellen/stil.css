@@ -35,3 +35,4 @@ th,td{border:1px solid var(--rand);padding:8px 10px;text-align:left;vertical-ali
 th{background:var(--flaeche)}
 code{font-size:.92em;background:var(--flaeche);padding:1px 5px;border-radius:5px}
 .fuss{border-top:1px solid var(--rand);color:var(--leise);font-size:14px;padding:20px 0 32px}
+.app-symbol{border-radius:22%}
