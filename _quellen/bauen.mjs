@@ -20,8 +20,8 @@ const ziel = join(quellen, '..');
 const APPS = [
   { id: 'wakedeal', name: 'WakeDeal', symbol: '/wakedeal/symbol.svg', startseite: true, hervor: true,
     kurz: 'Der Wecker, bei dem Verschlafen Geld kostet. Bald im App Store.' },
-  { id: 'fullout', name: 'FullOut', symbol: null, startseite: false,
-    kurz: '' },
+  { id: 'fullout', name: 'FullOut', symbol: '/fullout/symbol.png', startseite: true,
+    kurz: 'Reaktionsspiel: Countdown abwarten, im richtigen Moment reagieren, Bestzeit auf die Millisekunde.' },
   { id: 'rivet', name: 'RIVET', symbol: '/rivet/symbol.png', startseite: true,
     kurz: 'Das Partyspiel für Gruppen: Wer das leere Feld erwischt, verliert die Runde.' },
 ];
@@ -193,6 +193,34 @@ schreiben('wakedeal', rahmen({
   <a href="/wakedeal/nutzungsbedingungen/">Nutzungsbedingungen</a> · <a href="/impressum/">Impressum</a></p>
   <h2>Support</h2>
   <p>Fragen, Probleme, Einspruch? Schreib uns: <a href="mailto:kontakt@dolabst.de?subject=WakeDeal">kontakt@dolabst.de</a></p>
+</section>`
+}));
+
+// ---------- FullOut-Startseite (zweisprachig, Support-URL im App Store) ----------
+schreiben('fullout', rahmen({
+  titel: 'FullOut – Show your best time', sprache: 'de', bereich: 'fullout',
+  beschreibung: 'FullOut: Reaktionsspiel für iPhone und iPad. Countdown abwarten, im richtigen Moment reagieren, Bestzeit auf die Millisekunde.',
+  inhalt: `
+<section class="held">
+  <img class="symbol app-symbol" src="/fullout/symbol.png" alt="" width="120" height="120">
+  <h1>FullOut</h1>
+  <p class="unter">Bereit? Zeig deine Bestzeit.</p>
+  <p class="klein">Das Reaktionsspiel für iPhone und iPad – Zeitmessung auf die Millisekunde.<br>Ready? Show your best time. A reaction game for iPhone and iPad.</p>
+</section>
+<section class="schritte">
+  <div class="karte"><span class="nr">1</span><div><h2>Objekt platzieren · Place an object</h2><p>Leg ein Objekt in die Sensor Zone oben am Display. · Put an object in the Sensor Zone at the top of the screen.</p></div></div>
+  <div class="karte"><span class="nr">2</span><div><h2>Countdown abwarten · Wait for the countdown</h2><p>Erst im richtigen Moment reagieren. · React at exactly the right moment.</p></div></div>
+  <div class="karte"><span class="nr">3</span><div><h2>Zeit stoppen · Stop the clock</h2><p>Objekt zurücklegen – FullOut misst deine Zeit auf die Millisekunde. · Put the object back – FullOut measures your time to the millisecond.</p></div></div>
+</section>
+<section class="links">
+  <h2>Hinweis · Note</h2>
+  <p>Am besten leichte, nicht durchsichtige und nicht zerbrechliche Objekte verwenden – kein Glas oder Metall, das kann das Display beschädigen.<br>
+  Use light, non-transparent, unbreakable objects – no glass or metal, as they can damage the screen.</p>
+  <h2>Support</h2>
+  <p>Fragen oder Probleme? · Questions or problems?<br>
+  <a href="mailto:kontakt@dolabst.de?subject=FullOut">kontakt@dolabst.de</a></p>
+  <h2>Rechtliches · Legal</h2>
+  <p><a href="/fullout/datenschutz/">Datenschutzerklärung</a> · <a href="/fullout/privacy/">Privacy Policy</a> · <a href="/impressum/">Impressum / Legal notice</a></p>
 </section>`
 }));
 
