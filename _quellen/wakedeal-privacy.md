@@ -5,7 +5,7 @@ Last updated: November 17, 2026 · [Deutsche Fassung](/wakedeal/datenschutz/)
 ## 1. Controller
 
 DoLabst – owner and postal address: see [Legal notice](/impressum/)
-Email: kontakt@dolabst.de
+Email: wakedeal@dolabst.de
 
 We do not have a data protection officer; we are not required to appoint one.
 
@@ -104,7 +104,7 @@ You have the right to
 - object to processing based on legitimate interests (Art. 21 GDPR),
 - withdraw consent with effect for the future (Art. 7(3) GDPR), e.g. phone permissions.
 
-Just write to us at kontakt@dolabst.de.
+Just write to us at wakedeal@dolabst.de.
 
 ## 10. Right to lodge a complaint
 

@@ -18,11 +18,11 @@ const ziel = join(quellen, '..');
 // die Karte auf der Startseite und der Eintrag auf der Übersicht dolabst.de/privacy/.
 // Eine eigene App-Startseite (dolabst.de/<id>/) wird weiter unten von Hand gebaut; dann `startseite: true` setzen.
 const APPS = [
-  { id: 'wakedeal', name: 'WakeDeal', symbol: '/wakedeal/symbol.svg', startseite: true, hervor: true,
+  { id: 'wakedeal', name: 'WakeDeal', mail: 'wakedeal@dolabst.de', symbol: '/wakedeal/symbol.svg', startseite: true, hervor: true,
     kurz: 'Der Wecker, bei dem Verschlafen Geld kostet. Bald im App Store.' },
-  { id: 'fullout', name: 'FullOut', symbol: '/fullout/symbol.png', startseite: true,
+  { id: 'fullout', name: 'FullOut', mail: 'fullout@dolabst.de', symbol: '/fullout/symbol.png', startseite: true,
     kurz: 'Reaktionsspiel: Countdown abwarten, im richtigen Moment reagieren, Bestzeit auf die Millisekunde.' },
-  { id: 'rivet', name: 'RIVET', symbol: '/rivet/symbol.png', startseite: true,
+  { id: 'rivet', name: 'RIVET', mail: 'rivet@dolabst.de', symbol: '/rivet/symbol.png', startseite: true,
     kurz: 'Das Partyspiel für Gruppen: Wer das leere Feld erwischt, verliert die Runde.' },
 ];
 
@@ -86,6 +86,15 @@ function symbolBild(app, groesse, extraKlasse = '') {
   const klasse = [app.symbol.endsWith('.svg') ? '' : 'app-symbol', extraKlasse].filter(Boolean).join(' ');
   return `<img${klasse ? ` class="${klasse}"` : ''} src="${app.symbol}" alt="" width="${groesse}" height="${groesse}">`;
 }
+// Bereich „Kontakt & Support“ auf jeder App-Startseite (beide Sprachen)
+function kontaktBereich(id) {
+  const app = APPS.find(a => a.id === id);
+  return `<section class="kontakt box">
+  <h2>Kontakt &amp; Support · Contact &amp; Support</h2>
+  <p>Fragen, Probleme oder Ideen? Schreib uns.<br>Questions, issues or ideas? Get in touch.</p>
+  <p><a class="knopf" href="mailto:${app.mail}?subject=${encodeURIComponent(app.name)}">${app.mail}</a></p>
+</section>`;
+}
 const rechtsLinks = app => `<a href="/${app.id}/privacy/">Privacy Policy</a> · <a href="/${app.id}/datenschutz/">Datenschutzerklärung</a>`;
 const CSS = readFileSync(join(quellen, 'stil.css'), 'utf8');
 function rahmen({ titel, sprache, inhalt, bereich, beschreibung, noindex }) {
@@ -94,6 +103,8 @@ function rahmen({ titel, sprache, inhalt, bereich, beschreibung, noindex }) {
   const marke = app
     ? `<a class="marke" href="${app.startseite ? `/${app.id}/` : '/'}">${symbolBild(app, 32)}${esc(app.name)}</a>`
     : `<a class="marke" href="/"><span class="logo">D</span>DoLabst</a>`;
+  // Eigene Mail-Adresse je App (sonst die allgemeine).
+  const mail = app?.mail || 'kontakt@dolabst.de';
   return `<!doctype html>
 <html lang="${sprache}">
 <head>
@@ -109,7 +120,7 @@ function rahmen({ titel, sprache, inhalt, bereich, beschreibung, noindex }) {
 <main class="breite">
 ${inhalt}
 </main>
-<footer class="fuss"><div class="breite">© 2026 DoLabst · <a href="/impressum/">${de ? 'Impressum' : 'Legal notice'}</a> · <a href="mailto:kontakt@dolabst.de">kontakt@dolabst.de</a></div></footer>
+<footer class="fuss"><div class="breite">© 2026 DoLabst · <a href="/impressum/">${de ? 'Impressum' : 'Legal notice'}</a> · <a href="mailto:${mail}">${mail}</a></div></footer>
 </body>
 </html>
 `;
@@ -187,12 +198,11 @@ schreiben('wakedeal', rahmen({
   <div class="karte"><span class="nr">2</span><div><h2>Morgens beweisen</h2><p>Barcode im Bad scannen, Schritte gehen oder einen Gegenstand mit der Kamera finden.</p></div></div>
   <div class="karte"><span class="nr">3</span><div><h2>Geschafft?</h2><p>Dann wird der vorgemerkte Betrag freigegeben. Verschlafen? Dann wird er abgebucht – vorher kannst du Einspruch einlegen.</p></div></div>
 </section>
+${kontaktBereich('wakedeal')}
 <section class="links">
   <h2>Rechtliches · Legal</h2>
   <p><a href="/wakedeal/datenschutz/">Datenschutzerklärung</a> · <a href="/wakedeal/privacy/">Privacy Policy (English)</a><br>
   <a href="/wakedeal/nutzungsbedingungen/">Nutzungsbedingungen</a> · <a href="/impressum/">Impressum</a></p>
-  <h2>Support</h2>
-  <p>Fragen, Probleme, Einspruch? Schreib uns: <a href="mailto:kontakt@dolabst.de?subject=WakeDeal">kontakt@dolabst.de</a></p>
 </section>`
 }));
 
@@ -212,13 +222,11 @@ schreiben('fullout', rahmen({
   <div class="karte"><span class="nr">2</span><div><h2>Countdown abwarten · Wait for the countdown</h2><p>Erst im richtigen Moment reagieren. · React at exactly the right moment.</p></div></div>
   <div class="karte"><span class="nr">3</span><div><h2>Zeit stoppen · Stop the clock</h2><p>Objekt zurücklegen – FullOut misst deine Zeit auf die Millisekunde. · Put the object back – FullOut measures your time to the millisecond.</p></div></div>
 </section>
+${kontaktBereich('fullout')}
 <section class="links">
   <h2>Hinweis · Note</h2>
   <p>Am besten leichte, nicht durchsichtige und nicht zerbrechliche Objekte verwenden – kein Glas oder Metall, das kann das Display beschädigen.<br>
   Use light, non-transparent, unbreakable objects – no glass or metal, as they can damage the screen.</p>
-  <h2>Support</h2>
-  <p>Fragen oder Probleme? · Questions or problems?<br>
-  <a href="mailto:kontakt@dolabst.de?subject=FullOut">kontakt@dolabst.de</a></p>
   <h2>Rechtliches · Legal</h2>
   <p><a href="/fullout/datenschutz/">Datenschutzerklärung</a> · <a href="/fullout/privacy/">Privacy Policy</a> · <a href="/impressum/">Impressum / Legal notice</a></p>
 </section>`
@@ -240,10 +248,8 @@ schreiben('rivet', rahmen({
   <div class="karte"><span class="nr">2</span><div><h2>Make it yours · Mach es persönlich</h2><p>Emojis, icons or your own photos and sounds. · Emojis, Symbole oder eigene Fotos und Sounds.</p></div></div>
   <div class="karte"><span class="nr">3</span><div><h2>Blank tile? · Leeres Feld?</h2><p>Whoever hits the blank tile loses the round. · Wer das leere Feld erwischt, verliert die Runde.</p></div></div>
 </section>
+${kontaktBereich('rivet')}
 <section class="links">
-  <h2>Support</h2>
-  <p>Questions or problems? · Fragen oder Probleme?<br>
-  <a href="mailto:kontakt@dolabst.de?subject=RIVET">kontakt@dolabst.de</a></p>
   <h2>Legal · Rechtliches</h2>
   <p><a href="/rivet/privacy/">Privacy Policy</a> · <a href="/rivet/datenschutz/">Datenschutzerklärung</a> · <a href="/impressum/">Impressum / Legal notice</a></p>
 </section>`

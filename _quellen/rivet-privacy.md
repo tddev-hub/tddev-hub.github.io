@@ -5,7 +5,7 @@ Last updated: November 2026 · [Deutsche Fassung](/rivet/datenschutz/)
 ## 1. Controller
 
 DoLabst – owner and postal address: see [Legal notice](/impressum/)
-Email: kontakt@dolabst.de
+Email: rivet@dolabst.de
 
 We do not have a data protection officer; we are not required to appoint one.
 
@@ -79,7 +79,7 @@ You have the right to
 - object to processing (Art. 21 GDPR),
 - withdraw consent with effect for the future (Art. 7(3) GDPR), e.g. device permissions.
 
-Since we do not store any personal data of users, we usually cannot provide information about specific persons. Just write to us at kontakt@dolabst.de.
+Since we do not store any personal data of users, we usually cannot provide information about specific persons. Just write to us at rivet@dolabst.de.
 
 ## 11. Right to lodge a complaint
 

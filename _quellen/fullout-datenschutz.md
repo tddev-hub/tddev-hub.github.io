@@ -7,7 +7,7 @@ Diese deutsche Fassung ist maßgeblich.
 ## 1. Verantwortlicher
 
 DoLabst – Inhaber und Anschrift: siehe [Impressum](/impressum/)
-E-Mail: kontakt@dolabst.de
+E-Mail: fullout@dolabst.de
 
 Einen Datenschutzbeauftragten haben wir nicht; dazu sind wir nicht verpflichtet.
 
@@ -87,7 +87,7 @@ Du hast das Recht auf
 - Datenübertragbarkeit (Art. 20 DSGVO),
 - Widerspruch (Art. 21 DSGVO).
 
-Da wir aus der App keine Daten erhalten, können wir in der Regel keine Auskunft über Daten einzelner Nutzer geben. Schreib uns trotzdem gern an kontakt@dolabst.de.
+Da wir aus der App keine Daten erhalten, können wir in der Regel keine Auskunft über Daten einzelner Nutzer geben. Schreib uns trotzdem gern an fullout@dolabst.de.
 
 ## 12. Beschwerderecht
 
@@ -104,5 +104,5 @@ Wenn sich die App ändert, passen wir diese Erklärung an. Es gilt die jeweils h
 
 ## 15. Kontakt
 
-E-Mail: kontakt@dolabst.de
+E-Mail: fullout@dolabst.de
 Impressum: [dolabst.de/impressum](/impressum/)

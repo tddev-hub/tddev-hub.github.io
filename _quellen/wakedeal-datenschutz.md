@@ -6,7 +6,7 @@ Stand: 17. November 2026 · [English version](/wakedeal/privacy/)
 ## 1. Verantwortlicher
 
 DoLabst – Inhaber und Anschrift: siehe [Impressum](/impressum/)
-E-Mail: kontakt@dolabst.de
+E-Mail: wakedeal@dolabst.de
 
 Einen Datenschutzbeauftragten haben wir nicht; dazu sind wir nicht verpflichtet.
 
@@ -105,7 +105,7 @@ Du hast das Recht auf
 - Widerspruch gegen Verarbeitungen auf Grundlage berechtigter Interessen (Art. 21 DSGVO),
 - Widerruf einer Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO), z. B. von Handy-Erlaubnissen.
 
-Schreib uns dazu einfach an kontakt@dolabst.de.
+Schreib uns dazu einfach an wakedeal@dolabst.de.
 
 ## 10. Beschwerderecht
 

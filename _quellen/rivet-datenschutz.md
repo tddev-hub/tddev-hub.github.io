@@ -5,7 +5,7 @@ Stand: November 2026 · [English version](/rivet/privacy/)
 ## 1. Verantwortlicher
 
 DoLabst – Inhaber und Anschrift: siehe [Impressum](/impressum/)
-E-Mail: kontakt@dolabst.de
+E-Mail: rivet@dolabst.de
 
 Einen Datenschutzbeauftragten haben wir nicht; dazu sind wir nicht verpflichtet.
 
@@ -79,7 +79,7 @@ Du hast das Recht auf
 - Widerspruch gegen die Verarbeitung (Art. 21 DSGVO),
 - Widerruf einer Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO), z. B. Geräte-Erlaubnisse.
 
-Da wir keine personenbezogenen Daten von Nutzern speichern, können wir in der Regel keine Auskunft zu einzelnen Personen geben. Schreib uns einfach an kontakt@dolabst.de.
+Da wir keine personenbezogenen Daten von Nutzern speichern, können wir in der Regel keine Auskunft zu einzelnen Personen geben. Schreib uns einfach an rivet@dolabst.de.
 
 ## 11. Beschwerderecht
 

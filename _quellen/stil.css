@@ -36,3 +36,6 @@ th{background:var(--flaeche)}
 code{font-size:.92em;background:var(--flaeche);padding:1px 5px;border-radius:5px}
 .fuss{border-top:1px solid var(--rand);color:var(--leise);font-size:14px;padding:20px 0 32px}
 .app-symbol{border-radius:22%}
+.kontakt.box{background:var(--flaeche);border:1px solid color-mix(in srgb,var(--akzent) 55%,var(--rand));border-radius:18px;padding:4px 20px 20px;margin:8px 0 24px;text-align:center}
+.kontakt.box p{margin:6px 0;color:var(--leise)}
+.knopf{display:inline-block;margin-top:8px;padding:10px 20px;border-radius:999px;background:var(--akzent);color:var(--akzent-text);font-weight:700;overflow-wrap:anywhere}.knopf:hover{text-decoration:none;opacity:.9}

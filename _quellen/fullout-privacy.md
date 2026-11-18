@@ -7,7 +7,7 @@ This is a translation. The [German version](/fullout/datenschutz/) is legally bi
 ## 1. Controller
 
 DoLabst – owner and postal address: see [Legal notice](/impressum/)
-Email: kontakt@dolabst.de
+Email: fullout@dolabst.de
 
 We do not have a data protection officer; we are not required to appoint one.
 
@@ -87,7 +87,7 @@ You have the right to
 - data portability (Art. 20 GDPR),
 - object (Art. 21 GDPR).
 
-Since we do not receive any data from the app, we are generally unable to provide information about individual users' data. You are still welcome to contact us at kontakt@dolabst.de.
+Since we do not receive any data from the app, we are generally unable to provide information about individual users' data. You are still welcome to contact us at fullout@dolabst.de.
 
 ## 12. Right to Lodge a Complaint
 
@@ -104,5 +104,5 @@ If the app changes, we will update this policy. The version published on this pa
 
 ## 15. Contact
 
-Email: kontakt@dolabst.de
+Email: fullout@dolabst.de
 Legal notice: [dolabst.de/impressum](/impressum/)

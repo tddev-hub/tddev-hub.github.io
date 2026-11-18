@@ -5,7 +5,7 @@ Stand: 17. November 2026
 
 ## § 1 Anbieter und Geltung
 
-(1) Die App WakeDeal wird angeboten von DoLabst (Inhaber und Anschrift siehe [Impressum](/impressum/), E-Mail: kontakt@dolabst.de) („wir“).
+(1) Die App WakeDeal wird angeboten von DoLabst (Inhaber und Anschrift siehe [Impressum](/impressum/), E-Mail: wakedeal@dolabst.de) („wir“).
 
 (2) Diese Bedingungen gelten für die Nutzung der App. Für die kostenlose Nutzung ohne Geldeinsatz („Ehrenwort“) gelten nur §§ 1, 2, 9–12. Für Geldeinsätze gelten alle Regelungen.
 
@@ -106,7 +106,7 @@ Wir können diese Bedingungen für künftige Einsätze ändern. Laufende Einsät
 
 Du hast das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsabschlusses.
 
-Um dein Widerrufsrecht auszuüben, musst du uns (DoLabst, Inhaber Theo Dost, Sattelplatz 1, 48163 Münster, E-Mail: kontakt@dolabst.de) mittels einer eindeutigen Erklärung (z. B. eine E-Mail) über deinen Entschluss, diesen Vertrag zu widerrufen, informieren. Du kannst dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist. Zur Wahrung der Widerrufsfrist reicht es aus, dass du die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absendest.
+Um dein Widerrufsrecht auszuüben, musst du uns (DoLabst, Inhaber Theo Dost, Sattelplatz 1, 48163 Münster, E-Mail: wakedeal@dolabst.de) mittels einer eindeutigen Erklärung (z. B. eine E-Mail) über deinen Entschluss, diesen Vertrag zu widerrufen, informieren. Du kannst dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist. Zur Wahrung der Widerrufsfrist reicht es aus, dass du die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absendest.
 
 ### Folgen des Widerrufs
 
@@ -122,7 +122,7 @@ Das Widerrufsrecht erlischt, wenn wir die Dienstleistung vollständig erbracht h
 
 (Wenn du den Vertrag widerrufen willst, fülle bitte dieses Formular aus und sende es zurück.)
 
-An DoLabst, Inhaber Theo Dost, Sattelplatz 1, 48163 Münster, E-Mail: kontakt@dolabst.de:
+An DoLabst, Inhaber Theo Dost, Sattelplatz 1, 48163 Münster, E-Mail: wakedeal@dolabst.de:
 
 Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung (*): Einsatz bei WakeDeal für den Wecker am ____________
 Bestellt am (*) ____________
